@@ -43,17 +43,14 @@ FocusBot est un outil d'automatisation conçu pour LinkedIn, intégrant des tech
 #### **Installation**
 1. Clonez ou téléchargez ce dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/focusbot.git
-   cd focusbot
+   git clone https://github.com/focus-on1/LinkedBot-Automator.git
+   cd LinkedBot-Automator
    ```
-2. Installez les dépendances :
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Configurez votre fichier Telegram :
+
+2  Configurez votre fichier Telegram :
    - Remplacez `api_id`, `api_hash` et `bot_username` dans le script par vos informations Telegram.
 
-4. Modifiez vos identifiants LinkedIn dans le code :
+3 Modifiez vos identifiants LinkedIn dans le code :
    ```python
    login_linkedin("votre-email", "votre-mot-de-passe")
    ```
@@ -92,7 +89,7 @@ L’automatisation des interactions sur LinkedIn est soumise à leurs conditions
 
 #### **Auteur**
 - **Alias** : Cyber Focus  
-- **Contact** : [Votre Email](mailto:yassinapple756@gmail.com)  
+- **Contact** : https://t.me/lighitmook
 - **Projet dédié à la communauté des étudiants en cybersécurité et professionnels du réseau.**  
 
 ---
