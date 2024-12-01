@@ -192,9 +192,9 @@ def extract_and_comment_posts():
                 
                 time.sleep(2)  # Attendre un peu avant de cliquer sur "Publier"
                 
-                #publish_button = post.find_element(By.XPATH, "//button//span[text()='Publier']")
-                #publish_button.click()
-                #time.sleep(2)  # Attendre que le commentaire soit publié
+                publish_button = post.find_element(By.XPATH, "//button//span[text()='Publier']")
+                publish_button.click()
+                time.sleep(2)  # Attendre que le commentaire soit publié
                 
                 # Enregistrer le commentaire dans l'historique avec un statut True
                 save_to_history(post_text, status=True, cleaned_response=cleaned_response)
